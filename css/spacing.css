@@ -1,39 +1,35 @@
 @charset "UTF-8";
 /* CSS Document */
 .title {
-   margin-left: 20%;
-   margin-right: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 p {
-   margin-left: 20%;
-   margin-right: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 h2 {
-   margin-left: 20%;
-   margin-right: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 h3 {
-   margin-left: 20%;
-   margin-right: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 h1 {
-   margin-left: 20%;
-   margin-right: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
-.indoc{
-   margin-left: 20%;
-   margin-right: 20%;
+.indoc {
+  margin-left: 30%;
+  margin-right: 30%;
 }
 form {
-      margin-left: 20%;
-      margin-right: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 .logo {
-   margin-top: 3%;
-   margin-left: 20%;
-   margin-right: 20%;
-}
-body {
-   margin-left: 20%;
-   margin-right: 20%;
+  margin-top: 3%;
+  margin-left: 0%;
+  margin-right: 5%;
 }

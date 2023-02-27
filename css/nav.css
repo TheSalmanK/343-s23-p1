@@ -36,7 +36,7 @@
 
 .navbar li a {
    display:block;
-	padding:3px;
+	padding:2px;
 	text-decoration:none;
 	background-color: none;
 	color:rgb(0, 0, 0);
@@ -46,6 +46,22 @@
    background-color:#0000007e;
    color:#fff;
 }
-body {
-   background-color: #fff;
+
+.socials {
+list-style: none;
+   padding-top: 0;
+   margin-top: 0;
+   padding-left: 93rem;
+   width: 15rem;
+   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   /* place the navbar at the top of the page */
+   position: absolute;
+   top: 9.5rem;
+}
+.socials li {
+   display: block;
+   width:2rem;
+   height: 2rem;
+   float: left;
+   text-align: center;
 }
