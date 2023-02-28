@@ -82,5 +82,42 @@ list-style: none;
    image-rendering: optimizeQuality;
 }
 @media only screen and (max-width: 600px) {
+.navbar {
+   mask-image: url(../images/saturn-filled.svg);
+   position: fixed;
+   top: 0;
+   /* make the navbar span the entire width of the page */
+   left: 0;
+   z-index: 100;
+   background-color: #ffffff76;
+   background-size:contain;
+   padding-bottom: 0;
+   margin-bottom: 0;
+   border-bottom-right-radius: 2rem;
+   border-bottom-left-radius: 2rem;
+   
+}
 
+.navbar li {
+   
+   display: block;
+   width:20%;
+   float: left;
+   text-align: center;
+   border-bottom: solid;
+   border-color: #5555559c;
+}
+
+.navbar li a {
+   display: none;
+}
+
+.navbar li a:focus {
+   text-decoration: underline;
+   display:block;
+	padding:2px;
+	text-decoration:none;
+	background-color: none;
+	color:rgb(255, 249, 249);
+}
 }
