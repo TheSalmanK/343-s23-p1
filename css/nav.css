@@ -82,65 +82,14 @@ list-style: none;
    image-rendering: optimizeQuality;
 }
 @media only screen and (max-width: 600px) {
-.navbar {
-   background: none;
-   image-rendering: auto;
-   padding-left: 0;
-   padding-right: 0;
-   width: 10%;
-   font-family: none;
-   background-color: #fffbfb;
-   mask-image: url(/images/saturn-filled.svg);
-   mask-size: cover;
-   mask-repeat: none;
-   mask-position: center;
-   position: fixed;
-   top: 2rem;
-   left: 0;
-   right:0;
-   z-index: 100;
-}
+   .navbar {
+      height: 10vw;
+      display: flex;
+      justify-content: space-evenly;
+   }
 
-.navbar li {
- 
-}
-
-.navbar li a {
-}
-
-.navbar li a:focus {
-   text-decoration: underline;
-   display:block;
-	padding:2px;
-	text-decoration:none;
-	background-color: none;
-	color:rgb(255, 249, 249);
-}
-.indoc li {
-   display: block;
-   width: 1rem;
-   height: 1rem;
-   padding-left: 0rem;
-   padding-right: 3rem;
-   float: left;
-   text-align: center;
-   border-bottom: none;
-}
-.socials {
-list-style: none;
-   padding-top: 0;
-   margin-top: 0;
-   padding-left: 0rem;
-   width: 100%;
-   position: absolute;
-   top: 8.1rem;
-}
-.socials li {
-   display: block;
-   width:2rem;
-   height: 2rem;
-   float: left;
-   padding-right: 2.4rem;
-   text-align: center;
-}
+   .navbar li {
+      padding: 2vw;
+      width: 30vw;
+   }
 }
