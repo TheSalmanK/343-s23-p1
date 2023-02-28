@@ -50,22 +50,22 @@ form {
 .answer {
   padding-bottom: 10rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 .title {
   margin-left: 0;
   margin-right: 0;
 }
 p {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 20vw;
+  margin-right: 20vw;
 }
 h2 {
   margin-left: 0;
   margin-right: 0;
 }
 h3 {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 15vw;
+  margin-right: 20vw;
 }
 h1 {
   margin-left: 0;
@@ -80,9 +80,9 @@ form {
   margin-right: 0;
 }
 .logo {
-  margin-top: 0%;
+  margin-top: 3%;
   margin-left: 0%;
-  margin-right: 0%;
+  margin-right: 5%;
 }
 .indoc {
   margin-left: 0;
@@ -95,8 +95,9 @@ form {
   padding-bottom: 0;
 }
 .special {
-  position: relative;
-  right: 0;
+  position: initial;
+  display: flex;
+  justify-content: center;
 }
 .answer {
   padding-bottom: 0;
