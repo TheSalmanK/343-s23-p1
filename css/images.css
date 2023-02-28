@@ -66,18 +66,18 @@ float: right;
    position:relative;
    z-index: 90;
 }
-#faq2 {
+#faqtwopic {
 float: right;
    overflow:hidden;
    position:relative;
    z-index: 90;
 }
 #workwithus {
-float: left;
+float: center;
    overflow:hidden;
    position:relative;
    z-index: 90;
-   word-wrap:unset;
+   padding-left: 25rem;
 }
 #teamwork {
    float: right;

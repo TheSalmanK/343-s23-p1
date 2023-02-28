@@ -14,7 +14,7 @@
    /* make the navbar span the entire width of the page */
    left: 0;
    z-index: 100;
-   background-color: #ffffffc2;
+   background-color: #ffffff76;
    background-size:contain;
    padding-bottom: 0;
    margin-bottom: 0;
@@ -29,8 +29,6 @@
    width:18%;
    float: left;
    text-align: center;
-   
-   
    border-bottom: none;
 }
 
@@ -44,7 +42,7 @@
 
 .navbar li a:hover {
    background: linear-gradient(360deg, #83838341, #5050508f, #1d1d1dc8);
-   color:#fff;
+   color:#fffdfd;
 }
 
 .socials {
@@ -53,8 +51,6 @@ list-style: none;
    margin-top: 0;
    padding-left: 93rem;
    width: 15rem;
-   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-   /* place the navbar at the top of the page */
    position: absolute;
    top: 9.5rem;
 }

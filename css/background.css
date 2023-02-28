@@ -7,7 +7,9 @@
     rgba(198, 174, 251, 1),
     #ff90a8
   );
-  animation: slide 3s ease-in-out infinite alternate;
+  background-size: 200%;
+  animation: slide 4s ease-in-out infinite alternate;
+  width: 200%;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -87,6 +89,10 @@
     rgba(198, 174, 251, 1),
     #ff90a8
   );
+  width: max-content;
+
+  
+  width: 200%;
 }
 @keyframes slide {
   0% {

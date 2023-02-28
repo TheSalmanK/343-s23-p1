@@ -67,5 +67,8 @@ ul {
    list-style-type: none;
 }
 #navitem {
-   font-family: 'Calibri', sans-serif;
+   font-family: tenon, sans-serif;
+   font-style: normal;
+   font-weight: 200;
+   font-size: .9rem;
 }
