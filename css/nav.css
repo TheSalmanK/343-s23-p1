@@ -83,7 +83,7 @@ list-style: none;
 }
 @media only screen and (max-width: 600px) {
 .navbar {
-   mask-image: url(../images/saturn-filled.svg);
+   mask-image: image("/images/saturn-filled.svg");
    position: fixed;
    top: 0;
    /* make the navbar span the entire width of the page */
