@@ -103,5 +103,66 @@
   }
 }
 @media only screen and (max-width: 600px) {
+  .layer1 {
+  opacity: 0.4;
+  z-index: -1;
+  background-image: linear-gradient(
+      30deg,
+      #9320be 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #9320be 87.5%,
+      #9320be
+    ),
+    linear-gradient(
+      150deg,
+      #9320be 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #9320be 87.5%,
+      #9320be
+    ),
+    linear-gradient(
+      30deg,
+      #9320be 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #9320be 87.5%,
+      #9320be
+    ),
+    linear-gradient(
+      150deg,
+      #9320be 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #9320be 87.5%,
+      #9320be
+    ),
+    linear-gradient(
+      60deg,
+      #9320be77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #9320be77 75%,
+      #9320be77
+    ),
+    linear-gradient(
+      60deg,
+      #9320be77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #9320be77 75%,
+      #9320be77
+    );
+  background-size: 44px 77px;
+  background-position: 0 0, 0 0, 40px 100px, 300px 200px, 34 45, 69px 50px;
+  animation-direction: alternate-reverse;
+  animation-duration: 45s;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  
+  }
   
 }

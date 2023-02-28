@@ -246,5 +246,9 @@ float: center;
       size-adjust: max_size;
       position: relative;
    }
+   .mainlogo {
+      position: relative;
+      bottom: 1.5rem;
+   }
 
 }
