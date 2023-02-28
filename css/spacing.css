@@ -50,3 +50,55 @@ form {
 .answer {
   padding-bottom: 10rem;
 }
+@media only screen and (max-width: 600px) {
+.title {
+  margin-left: 0;
+  margin-right: 0;
+}
+p {
+  margin-left: 0;
+  margin-right: 0;
+}
+h2 {
+  margin-left: 0;
+  margin-right: 0;
+}
+h3 {
+  margin-left: 0;
+  margin-right: 0;
+}
+h1 {
+  margin-left: 0;
+  margin-right: 0;
+}
+.indoc {
+  margin-left: 0;
+  margin-right: 0;
+}
+form {
+  margin-left: 0;
+  margin-right: 0;
+}
+.logo {
+  margin-top: 3%;
+  margin-left: 0%;
+  margin-right: 5%;
+}
+.indoc {
+  margin-left: 0;
+  margin-right: 0;
+}
+.feature {
+  padding-bottom: 0;
+}
+.content {
+  padding-bottom: 0;
+}
+.special {
+  position: relative;
+  right: 0;
+}
+.answer {
+  padding-bottom: 0;
+}
+}

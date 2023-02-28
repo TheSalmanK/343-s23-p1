@@ -148,3 +148,6 @@ float: center;
 #learner{
    position: center;
 }
+@media only screen and (max-width: 600px) {
+   
+}

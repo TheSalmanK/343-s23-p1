@@ -81,3 +81,6 @@ list-style: none;
 .logo {
    image-rendering: optimizeQuality;
 }
+@media only screen and (max-width: 600px) {
+   
+}
