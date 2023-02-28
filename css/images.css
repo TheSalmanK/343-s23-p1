@@ -149,5 +149,102 @@ float: center;
    position: center;
 }
 @media only screen and (max-width: 600px) {
-   
+   #mission {
+      display: none;
+   }
+   #joinus {
+      display: none;
+   }
+   #vote {
+      display: none;
+   }
+   #community {
+      display: none;
+   }
+   #workwithus {
+      position:relative;
+      position: center;
+      size-adjust: max_size;
+   }
+   #follow {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #faqtwopic {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #faq {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #contactus {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #rewards {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #incentives {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #socialmedia {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #government {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #teamwork {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #decentralarc {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #usercontrol {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #crypto {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #communitygov {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #events {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #overviewpic {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #signup {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #blockchain {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #learner {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #allforone {
+      size-adjust: max_size;
+      position: relative;
+   }
+   #blockchain {
+      size-adjust: max_size;
+      position: relative;
+   }
+
 }

@@ -41,8 +41,8 @@
 }
 
 .navbar li a:hover {
-   background: linear-gradient(360deg, #83838341, #5050508f, #1d1d1dc8);
-   color:#fffdfd;
+   text-decoration: underline;
+   color:#9867e8;
 }
 
 .socials {
@@ -82,5 +82,5 @@ list-style: none;
    image-rendering: optimizeQuality;
 }
 @media only screen and (max-width: 600px) {
-   
+
 }
