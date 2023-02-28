@@ -43,7 +43,7 @@
 }
 
 .navbar li a:hover {
-   background-color:#0000007e;
+   background: linear-gradient(360deg, #83838341, #5050508f, #1d1d1dc8);
    color:#fff;
 }
 
@@ -64,4 +64,21 @@ list-style: none;
    height: 2rem;
    float: left;
    text-align: center;
+}
+.indoc {
+   list-style: none;
+   width: 100%;
+   left: 0;
+   border-bottom-right-radius: 2rem;
+   border-bottom-left-radius: 2rem;
+}
+.indoc li {
+   display: block;
+   width: 2rem;
+   height: 2rem;
+   padding-left: 0rem;
+   padding-right: 6rem;
+   float: left;
+   text-align: center;
+   border-bottom: none;
 }

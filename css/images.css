@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+#blockchain {
+   float: right;
+   padding: 8rem 0rem;
+   flood-opacity: 30%;
+   size-adjust: 20%;
+   overflow: hidden;
+   position: absolute;
+   top: 20rem;
+   right: 0;
+   left: 84.5rem;
+   z-index: 100;
+} 
+#community{
+   position: center;
+   margin-left: 15%;
+}
+#vote {
+   float: left;
+   padding: 8rem 0rem;
+   flood-opacity: 30%;
+   size-adjust: 20%;
+   overflow: hidden;
+   position: absolute;
+   top: 110rem;
+   right: 120rem;
+   left: -5rem;
+   z-index: 100;
+} 
+#allforone {
+   position: center;
+   margin-left: 30%;
+}
+#decentralarc {
+   float: right;
+   overflow:hidden;
+   position:relative;
+
+}
+#usercontrol {
+   float: right;
+   overflow:hidden;
+   position:relative;
+}
+#contactus {
+   float: right;
+   overflow:hidden;
+   position:relative;
+   right: 85rem;
+   z-index: 90;
+}
+#faq {
+float: right;
+   overflow:hidden;
+   position:relative;
+   right: 85rem;
+   z-index: 90;
+}
+#workwithus {
+position: center;
+margin-left: 30rem;
+}
+.hide {
+   display: none;
+}
