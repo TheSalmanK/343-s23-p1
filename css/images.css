@@ -6,15 +6,12 @@
    flood-opacity: 30%;
    size-adjust: 20%;
    overflow: hidden;
-   position: absolute;
-   top: 20rem;
-   right: 0;
-   left: 84.5rem;
-   z-index: 100;
+   position: relative;
+   left: 5rem;
+   z-index: 90;
 } 
 #community{
    position: center;
-   margin-left: 15%;
 }
 #vote {
    float: left;
@@ -22,11 +19,9 @@
    flood-opacity: 30%;
    size-adjust: 20%;
    overflow: hidden;
-   position: absolute;
-   top: 110rem;
-   right: 120rem;
-   left: -5rem;
-   z-index: 100;
+   position: relative;
+   right: 2rem;
+   z-index: 90;
 } 
 #allforone {
    position: center;
@@ -36,31 +31,140 @@
    float: right;
    overflow:hidden;
    position:relative;
+   left: 0rem;
 
 }
 #usercontrol {
    float: right;
    overflow:hidden;
    position:relative;
+   left: 0rem;
+}
+#crypto {
+   float: right;
+   overflow:hidden;
+   position:relative;
+   left: -2rem;
+   z-index: 90;
+}
+#communitygov {
+   float: right;
+   overflow:hidden;
+   position:relative;
+   left: 0rem;
+   z-index: 90;
+}
+#incentives {
+   float: left;
+   overflow:hidden;
+   position:relative;
+   left: 0rem;
+   z-index: 90;
 }
 #contactus {
    float: right;
    overflow:hidden;
    position:relative;
-   right: 85rem;
+   left: 0rem;
    z-index: 90;
 }
 #faq {
 float: right;
    overflow:hidden;
    position:relative;
-   right: 85rem;
+   left: 0rem;
+   z-index: 90;
+}
+#faq2 {
+float: right;
+   overflow:hidden;
+   position:relative;
+   left: 34rem;
+   top: 8rem;
    z-index: 90;
 }
 #workwithus {
-position: center;
-margin-left: 30rem;
+float: right;
+   overflow:hidden;
+   position:relative;
+   left: 15rem;
+   z-index: 90;
+   word-wrap:unset;
+}
+#teamwork {
+   float: right;
+   overflow:hidden;
+   position:relative;
+   left: 0rem;
+   z-index: 90;
+}
+#government {
+   float: right;
+   overflow:hidden;
+   position:relative;
+   left: 10rem;
+   z-index: 90;
+}
+#events {
+   float: right;
+   overflow:hidden;
+   position:relative;
+   left: 17rem;
+   z-index: 90;
+}
+#follow {
+   float: right;
+   overflow:hidden;
+   position:relative;
+   left: 0rem;
+   z-index: 90;
 }
 .hide {
    display: none;
+}
+#mission {
+   float: right;
+   overflow: hidden;
+   position: relative;
+   z-index: 90;
+}
+#joinus {
+   float: right;
+   overflow: hidden;
+   position: relative;
+   z-index: 90;
+   left: 3rem;
+}
+#socialmedia {
+   float: right;
+   overflow: hidden;
+   position: relative;
+   z-index: 90;
+   left: 3rem;
+}
+#rewards {
+   float: left;
+   overflow: hidden;
+   position: relative;
+   z-index: 90;
+   right: 10rem;
+   word-wrap: break-word;
+   padding: 0%;
+   margin: 0;
+
+}
+#overviewpic {
+   float: right;
+   overflow: hidden;
+   position: relative;
+   z-index: 90;
+}
+#signup {
+   float: right;
+   overflow: hidden;
+   position: relative;
+   z-index: 90;
+}
+#learner{
+   position: center;
 }

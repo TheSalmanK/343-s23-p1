@@ -1,40 +1,18 @@
-<!DOCTYPE html>
-<head>
-  <link rel="Stylesheet" href="css/background.css" />
-  <link rel="Stylesheet" href="css/spacing.css" />
-  <link rel="Stylesheet" href="css/typography.css" />
-  <link rel="Stylesheet" href="css/contactform.css" />
-  <link rel="Stylesheet" href="css/nav.css" />
-  <link rel="Stylesheet" href="css/images.css" />
-
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Community</title>
-  <nav class="nav">
-      <ul class="navbar">
-        <li class="homebutton" id="navitem"><a href="index.html">Home</a></li>
-        <li class="missionbutton" id="navitem"><a href="ourmission.html">Our Mission</a></li>
-        <li class="featuresbutton" id="navitem"><a href="features.html">Features</a></li>
-        <li class="communitybutton" id="navitem"><a href="community.html">Community</a></li>
-        <li class="contactbutton" id="navitem"><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="364" height="260" viewBox="0 0 364 161">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="364" height="161" viewBox="0 0 364 161">
   <defs>
-    <filter id="saturn" x="56" y="1" width="131" height="260" filterUnits="userSpaceOnUse">
-      <feOffset dy="3"/>
+    <filter id="saturn" x="56" y="1" width="131" height="131" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic" in2=""/>
+      <feComposite in="SourceGraphic"/>
     </filter>
     <filter id="S_LAR" x="0" y="0" width="364" height="161" filterUnits="userSpaceOnUse">
-      <feOffset dy="3"/>
+      <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-2"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-2"/>
-      <feComposite in="SourceGraphic" in2=""/>
+      <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
   <g id="companyname" transform="translate(9 6)">
@@ -46,111 +24,3 @@
     </g>
   </g>
 </svg>
-<nav class="socials">
-      <ul class="socials__list">
-        <li class="socials__item">
-          <a href="https://facebook.com/" target="_blank"><img src="images/facebook.svg" alt ="Facebook" class="socials_icon"
-          </a>
-        </li>
-        <li class="socials__insta">
-          <a href="https://instagram.com/" target="_blank"><img src="images/instagram.svg" alt ="Instagram" class="socials_icon"
-          </a>
-        </li>
-        <li class="socials__twitter">
-          <a href="https://twitter.com/solar_network" target="_blank"><img src="images/twitter.svg" alt="Twitter" class="socials__icon"
-          /></a>
-        </li>
-        <li class="socials__item">
-          <a href="https://reddit.com/solar_network" target="_blank"><img src="images/reddit.svg" alt="Reddit" class="socials__icon"
-          /></a>
-        <li class="socials__item">
-          <a href="https://discord.gg/4Z4Z4Z4Z4Z" target="_blank"><img src="images/discord.svg" alt="Discord" class="socials__icon"
-          /></a>
-      </ul>
-    </nav>
-</head>
-<body>
-  <h1>
-    Community
-  </h1>
-  <img id="teamwork" src="images/teamwork.svg" alt="communities"><figcaption class = "hide">Image by <a href="https://pixabay.com/users/manfredsteger-1848497/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3947909">Manfred Steger</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3947909">Pixabay</a></figcaption></img>
-  <p>
-    Welcome to Solar's community page. Our platform is designed to give users
-    greater control over their personal data and privacy while connecting them
-    with others in a secure and decentralized way. Built on decentralized
-    blockchain technology, the platform is not owned or controlled by any single
-    entity. Our community of users has the power to vote on key decisions such
-    as platform updates, new features, and partnerships.
-  </p>
-  <h3>
-    Governance
-  </h3>
-  <img id="government" src="images/government.svg" alt="government"><figcaption class = "hide">Image by <a href="https://pixabay.com/users/manfredsteger-1848497/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3699342">Manfred Steger</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3699342">Pixabay</a></figcaption></img>
-  <p>
-  <p>
-    Solar's governance model is designed to be democratic and decentralized. Our
-    community of users has the power to vote on key decisions such as platform
-    updates, new features, and partnerships. We believe that this approach gives
-    users a greater sense of control over the platform and encourages
-    participation.
-  </p>
-  <h3>
-    Events
-  </h3>
-  <img id="events" src="images/events.svg" alt="events"><figcaption class = "hide">Image by <a href="https://pixabay.com/users/manfredsteger-1848497/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3704047">Manfred Steger</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3704047">Pixabay</a></figcaption></img>
-  <p>
-    We regularly host events and meetups where users can connect with each other
-    in person. These events are a great opportunity to learn more about Solar's
-    decentralized social network and meet like-minded individuals who are
-    passionate about blockchain technology and user privacy.
-  </p>
-  <h3>
-    Social Media
-  </h3>
-  <img id="socialmedia" src="images/socialmedia.svg" alt="Social"><figcaption class = "hide">Image by <a href="https://pixabay.com/users/manfredsteger-1848497/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7464615">Manfred Steger</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7464615">Pixabay</a></figcaption></img>
-  <p>
-  <p>
-    Stay up to date with the latest news and updates from Solar by following us
-    on social media. We regularly post updates on platform development,
-    community events, and new partnerships. Join the conversation and share your
-    feedback with us!
-  </p>
-  <ul class ="indoc">
-        <li>
-          <a href="https://facebook.com/" target="_blank"><img src="images/facebook.svg" alt ="Facebook" class="socials_icon"
-          </a>
-        </li>
-        <li class="socials__insta">
-          <a href="https://instagram.com/" target="_blank"><img src="images/instagram.svg" alt ="Instagram" class="socials_icon"
-          </a>
-        </li>
-        <li class="socials__twitter">
-          <a href="https://twitter.com/solar_network" target="_blank"><img src="images/twitter.svg" alt="Twitter" class="socials__icon"
-          /></a>
-        </li>
-        <li class="socials__item">
-          <a href="https://reddit.com/solar_network" target="_blank"><img src="images/reddit.svg" alt="Reddit" class="socials__icon"
-          /></a>
-        <li>
-          <a href="https://discord.gg/4Z4Z4Z4Z4Z" target="_blank"><img src="images/discord.svg" alt="Discord" class="socials__icon"
-          /></a>
-      </ul>
-  <h3>
-    Rewards Program
-  </h3>
-  <img id="rewards" src="images/rewards.svg" alt="Rewards"><figcaption class = "hide">Image by <a href="https://pixabay.com/users/manfredsteger-1848497/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3702063">Manfred Steger</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3702063">Pixabay</a></figcaption></img>
-  <p class="special">
-    Solar incentivizes users to contribute to the platform by rewarding them
-    with tokens for actions such as creating content, sharing content, and
-    referring new users. Join us in building a more democratic and user-centric
-    approach to social networking.
-  </p>
-
-    <div class="white_forefront"></div>
-    <div class="main__bg"></div>
-    <div class="main__bg layer1"></div>
-    <div class="main__bg layer2"></div>
-    <div class="main__bg layer3"></div>
-    <div class="main__bgleft"></div>
-    <div class="main__bgright"></div>
-</body>

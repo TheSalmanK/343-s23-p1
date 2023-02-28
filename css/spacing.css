@@ -6,7 +6,7 @@
 }
 p {
   margin-left: 25%;
-  margin-right: 25%;
+  margin-right: 30%;
 }
 h2 {
   margin-left: 25%;
@@ -36,4 +36,14 @@ form {
 .indoc {
   margin-left: 25%;
   margin-right: 25%;
+}
+.feature {
+  padding-bottom: 10rem;
+}
+.content {
+  padding-bottom: 5rem;
+}
+.special {
+  position: relative;
+  right: 8rem;
 }
