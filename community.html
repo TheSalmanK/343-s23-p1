@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <head>
   <link rel="Stylesheet" href="css/background.css" />
-  <link rel="Stylesheet" href="css/spacing.css" />
-  <link rel="Stylesheet" href="css/typography.css" />
-  <link rel="Stylesheet" href="css/contactform.css" />
-  <link rel="Stylesheet" href="css/nav.css" />
-  <link rel="Stylesheet" href="css/images.css" />
+    <link rel="Stylesheet" href="css/spacing.css" />
+    <link rel="Stylesheet" href="css/contactform.css" />
+    <link rel="Stylesheet" href="css/nav.css" />
+    <link rel="Stylesheet" href="css/typography.css" />
+    <link rel="Stylesheet" href="css/images.css" />
 
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,6 +20,24 @@
         <li class="contactbutton" id="navitem"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+        <!--MOBILE NAVIGATION UNIT-->
+<div class="mobilenavigator">
+<a href="#" id="logomobile" class="logomobilepic"><img src="/images/saturn-filled.svg"></a>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav id="navmobile">
+            <ul id="mobile" class="menumobile">
+                <li class="homebutton" id="navitem"><a href="index.html">Home</a></li>
+        <li class="missionbutton" id="navitem"><a href="ourmission.html">Our Mission</a></li>
+        <li class="featuresbutton" id="navitem"><a href="features.html">Features</a></li>
+        <li class="communitybutton" id="navitem"><a href="community.html">Community</a></li>
+        <li class="contactbutton" id="navitem"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+</div>
+<!--MOBILE NAVIGATION UNIT-->
   <svg class ="mainlogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="364" height="260" viewBox="0 0 364 161">
   <defs>
     <filter id="saturn" x="56" y="1" width="131" height="260" filterUnits="userSpaceOnUse">
@@ -46,28 +64,6 @@
     </g>
   </g>
 </svg>
-<nav class="socials">
-      <ul class="socials__list">
-        <li class="socials__item">
-          <a href="https://facebook.com/" target="_blank"><img src="images/facebook.svg" alt ="Facebook" class="socials_icon"
-          </a>
-        </li>
-        <li class="socials__insta">
-          <a href="https://instagram.com/" target="_blank"><img src="images/instagram.svg" alt ="Instagram" class="socials_icon"
-          </a>
-        </li>
-        <li class="socials__twitter">
-          <a href="https://twitter.com/solar_network" target="_blank"><img src="images/twitter.svg" alt="Twitter" class="socials__icon"
-          /></a>
-        </li>
-        <li class="socials__item">
-          <a href="https://reddit.com/solar_network" target="_blank"><img src="images/reddit.svg" alt="Reddit" class="socials__icon"
-          /></a>
-        <li class="socials__item">
-          <a href="https://discord.gg/4Z4Z4Z4Z4Z" target="_blank"><img src="images/discord.svg" alt="Discord" class="socials__icon"
-          /></a>
-      </ul>
-    </nav>
 </head>
 <body>
   <h1>
@@ -153,4 +149,28 @@
     <div class="main__bg layer3"></div>
     <div class="main__bgleft"></div>
     <div class="main__bgright"></div>
+
+
+    <nav class="socials">
+      <ul class="socials__list">
+        <li class="socials__item">
+          <a href="https://facebook.com/" target="_blank"><img src="images/facebook.svg" alt ="Facebook" class="socials_icon"
+          </a>
+        </li>
+        <li class="socials__insta">
+          <a href="https://instagram.com/" target="_blank"><img src="images/instagram.svg" alt ="Instagram" class="socials_icon"
+          </a>
+        </li>
+        <li class="socials__twitter">
+          <a href="https://twitter.com/solar_network" target="_blank"><img src="images/twitter.svg" alt="Twitter" class="socials__icon"
+          /></a>
+        </li>
+        <li class="socials__item">
+          <a href="https://reddit.com/solar_network" target="_blank"><img src="images/reddit.svg" alt="Reddit" class="socials__icon"
+          /></a>
+        <li  id="discord" class="socials__item">
+          <a href="https://discord.gg/4Z4Z4Z4Z4Z" target="_blank"><img src="images/discord.svg" alt="Discord" class="socials__icon"
+          /></a>
+      </ul>
+    </nav>
 </body>

@@ -22,9 +22,6 @@ form {
       align-items: Left;
       /*make the selection box and text in one row*/
       flex-wrap: wrap;
-      /*make the form boxes allign in a single column*/
-      display: flex;
-      flex-direction: column;
 }
 #emailtext {
       padding-right: 2rem;

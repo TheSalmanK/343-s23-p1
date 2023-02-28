@@ -51,13 +51,16 @@ form {
   padding-bottom: 10rem;
 }
 @media only screen and (max-width: 600px) {
+  .mainlogo {
+    margin-top: 55px;
+    padding-bottom: 0;
+  }
 .title {
   margin-left: 0;
   margin-right: 0;
 }
 p {
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0.5rem;
 }
 h2 {
   margin-left: 0;
@@ -68,8 +71,8 @@ h3 {
   margin-right: 0;
 }
 h1 {
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
+  padding: 0;
 }
 .indoc {
   margin-left: 0;

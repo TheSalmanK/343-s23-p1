@@ -1,5 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
 .main__bg {
   background-image: linear-gradient(
     45deg,
@@ -77,7 +83,7 @@
   top: 0;
   bottom: 0;
   z-index: -1;
-  block-size: 24.6% !important;
+  block-size: 23.2rem !important;
   
 }
 
@@ -90,22 +96,10 @@
     #ff90a8
   );
   width: max-content;
-
-  
   width: 200%;
 }
-@keyframes slide {
-  0% {
-    transform: translateX(-25%);
-  }
-  100% {
-    transform: translateX(25%);
-  }
-}
-@media only screen and (max-width: 600px) {
-  .layer1 {
-  opacity: 0.4;
-  z-index: -1;
+.footer__bg {
+    opacity: 0.4;
   background-image: linear-gradient(
       30deg,
       #9320be 12%,
@@ -155,14 +149,51 @@
       #9320be77
     );
   background-size: 44px 77px;
-  background-position: 0 0, 0 0, 40px 100px, 300px 200px, 34 45, 69px 50px;
+  background-position: 0 0, 0 0, 22px 39px, 22px 39px, 0 0, 40px 75px;
   animation-direction: alternate-reverse;
   animation-duration: 45s;
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: bottom - 100px;
+  bottom: 20px;
+  z-index: 1;
+  block-size: 40rem !important;
+}
+.footer__bg2 {
   z-index: -1;
-  
+  background-image: linear-gradient(
+    45deg,
+    #47ffe5,
+    rgba(198, 174, 251, 1),
+    #ff90a8
+  );
+  width: max-content;
+  width: 200%;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+@media  screen and (min-width: 601px) {
+.layer4 {
+  display: none;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+  .layer1 {
+    block-size: 25.5rem !important;
+  }
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
   }
   
 }
