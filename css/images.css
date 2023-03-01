@@ -151,109 +151,101 @@ float: center;
 @media only screen and (max-width: 1000px) {
    #mission {
       padding: 1vw;
-      height: 20vw;
+      height: 80vw;
       margin-right: 10vw;
+      margin-left: 10vw;
    }
    #joinus {
       padding: 1vw;
-      height: 20vw;
-      margin-top: 50vw;
+      height: 80vw;
    }
    #vote {
-      padding: 1vw;
-      height: 20vw;
-      margin-top: 50vw;
+      display: none;
    }
    #community {
       padding: 1vw;
-      height: 20vw;
+      height: 35vw;
       justify-content: center;
    }
    #workwithus {
       padding: 1vw;
-      height: 25vw;
-      margin-left: 10vw;
+      height: 50vw;
    }
    #follow {
       padding: 2vw;
-      height: 20vw;
-      margin-right: -5vw;
-      margin-top: 12vw;
+      height: 90vw;
+      right: 10vw;
+      margin-left: 12vw;
+      
    }
    #faqtwopic {
-      padding: 2vw;
-      height: 25vw;
+      padding: 1vw;
+      height: 100vw;
+      right: 10vw;
+      margin-left: 12vw;
    }
    #faq {
       padding: 1vw;
-      height: 20vw;
-      margin-right: -5vw;
+      height: 70vw;
    }
    #contactus {
       padding: 1vw;
-      height: 20vw;
-      margin-right: -5vw;
-      margin-top: 10vw;
+      height: 90vw;
+      right: 7vw;
    }
    #rewards {
       padding: 1vw;
-      height: 12.5vw;
+      height: 100vw;
       margin-top: 10vw;
    }
    #incentives {
       padding: 1vw;
-      height: 12vw;
-      margin-top: 10vw;
+      height: 60vw;
    }
    #socialmedia {
       padding: 1vw;
-      height: 10vw;
-      margin-right: 10vw;
-      margin-top: 10vw;
+      height: 60vw;
    }
    #government {
       padding: 1vw;
-      height: 20vw;
+      height:65vw;
       margin-top: 5vw;
    }
    #teamwork {
       padding: 1vw;
-      height: 20vw;
+      height: 90vw;
       margin-right: 2vw;
    }
    #decentralarc {
       padding: 1vw;
-      height: 20vw;
+      height: 80vw;
       margin-right: 2vw;
    }
    #usercontrol {
       padding: 1vw;
-      height: 20vw;
+      height: 80vw;
       margin-right: 2vw;
    }
    #crypto {
       padding: 2vw;
-      height: 20vw;
+      height: 80vw;
       margin-right: 2vw;
    }
    #communitygov {
       padding: 0vw;
-      height: 30vw;
-      margin-top: 10vw;
-      margin-right: 2vw;
+      height: 80vw;
    }
    #events {
       padding: 1vw;
-      height: 12vw;
-      margin-top: 10vw;
+      height: 50vw;
    }
    #overviewpic {
-      padding: 1vw;
-      height: 20vw;
+   margin: 1vw;
+      height: 70vw;
    }
    #signup {
       padding: 1vw;
-      height: 20vw;
+      height: 70vw;
       margin-top: 5vw;
    }
    #blockchain {
@@ -262,17 +254,17 @@ float: center;
    }
    #learner {
       padding: 1vw;
-      height: 20vw;
-      margin-left: 20vw;
+      height: 40vw;
    }
    #allforone {
       padding: 1vw;
-      height: 20vw;
-      justify-content: center;
+      height: 60vw;
+      position: relative;
+      right: 30vw;
    }
    #blockchain {
       padding: 1vw;
-      height: 20vw;
+      height: 60vw;
    }
    .mainlogo {
       position: relative;
