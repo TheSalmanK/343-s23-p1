@@ -144,6 +144,8 @@ float: center;
    overflow: hidden;
    position: relative;
    z-index: 90;
+   bottom: 250px;
+   margin:0;
 }
 #learner{
    position: center;
@@ -246,7 +248,11 @@ float: center;
    #signup {
       padding: 1vw;
       height: 70vw;
-      margin-top: 5vw;
+      margin: 5vw;
+      float: none;
+      display: block;
+      z-index: 0;
+      top:5vw;
    }
    #blockchain {
       size-adjust: max_size;
