@@ -179,7 +179,8 @@ list-style: none;
     color: var(--black);
 }
 .menumobile a:hover{
-    background-color: #9867e867;
+    
+    color: #9867e89c;
    }
 #navmobile{
     max-height: 0;
