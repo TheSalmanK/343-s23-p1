@@ -19,13 +19,71 @@ form {
       display: flex;
       flex-direction: column;
       /*align the form boxes to the center*/
-      align-items: Left;
+      align-items: left;
       /*make the selection box and text in one row*/
       flex-wrap: wrap;
 }
+
+
+@keyframes radiate {
+      0%  { border-color:#47ffe5;}
+      50%  { border-color:rgba(198, 174, 251, 1);}
+      100% {border-color: #47ffe5;}
+}
+
+@keyframes blink {
+      from {
+            border-color:transparent
+      }
+
+      to {
+            border-color: black;
+      }
+}
+
+
+#email {
+      font-family: tenon-Haas-Grotesk-Display-Pro, sans-serif;
+      font-weight: 200;
+      font-size: 1rem;
+
+      background-color: transparent;
+      border: none;
+      padding: 1vw;
+      border-bottom: 0.15rem solid;
+      outline: none;
+
+      animation: radiate 20s infinite linear;
+}
+
+#message {
+      font-family: tenon-Haas-Grotesk-Display-Pro, sans-serif;
+      font-weight: 200;
+      font-size: 1rem;
+
+      padding: 1vw;
+      margin-top: 2vw;
+      margin-bottom: 2vw;
+      background-color: transparent;
+      border: none;
+      border-bottom: 0.15rem solid;
+      outline: none;
+      resize: none;
+
+      animation: radiate 20s infinite linear;
+}
+
+#email:focus, #message:focus {
+      animation: blink 1s;
+      border-color:#000;
+}
+
+
+
 #emailtext {
       padding-right: 2rem;
 }
+
 #messageprompt {
 
 }
