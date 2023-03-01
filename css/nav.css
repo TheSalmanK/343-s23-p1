@@ -4,8 +4,8 @@
    list-style: none;
    padding-top: 0;
    margin-top: 0;
-   padding-left: 20%;
-   padding-right: 20%;
+   padding-left: 20vw;
+   padding-right: 20vw;
    width: 60%;
    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
    /* place the navbar at the top of the page */
@@ -26,7 +26,7 @@
 .navbar li {
    
    display: block;
-   width:18%;
+   width:20%;
    float: left;
    text-align: center;
    border-bottom: none;
@@ -93,13 +93,13 @@ list-style: none;
 .logo {
    image-rendering: optimizeQuality;
 }
-@media  screen and (min-width: 601px) {
+@media  screen and (min-width: 726px) {
 .mobilenavigator {
    display: none;
 
 }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 725px) {
 .navbar {
    display: none;
 }
