@@ -236,10 +236,12 @@ list-style: none;
     transform: rotate(45deg);
     top:0;
 }
-#navitem {
+#navitem, .homebutton, .missionbutton, 
+.featuresbutton, .communitybutton, 
+.contactbutton {
       padding: 40px;
       font-size: 20px;
-      font-weight: 600;
+      font-weight: 200;
       text-transform: uppercase;
       letter-spacing: 2px;
       color: var(--black);
