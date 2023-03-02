@@ -81,14 +81,20 @@ form {
       padding-right: 2rem;
 }
 
-#messageprompt {
-
+#applicationtitle, #applytext, #updatestext {
+      font-family: tenon-Haas-Grotesk-Display-Pro, sans-serif;
+      font-weight: 200;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      margin-left: 0.2rem;
+      color: #00000085;
 }
-#applytext {
-
-}
-#updatestext {
-
+#updates, #news {
+      /*put the checkboxes at the right edge*/
+      margin-left: auto;
+      /*make the selection box and text in one row*/
+      display: flex;
+      flex-direction: row;
 }
 #submitbutton {
 
