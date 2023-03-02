@@ -75,7 +75,6 @@ ul {
    font-style: normal;
    font-weight: 200;
    font-size: 1.2rem;
-filter: drop-shadow(1px 1px 6px rgba(0, 0, 0, 0.498));
 }
 #submitbutton {
    font-family: tenon, sans-serif;
