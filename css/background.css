@@ -153,7 +153,6 @@ html, body {
   animation-direction: alternate-reverse;
   animation-duration: 45s;
   position: absolute;
-  top: bottom - 100px;
   bottom: 20px;
   z-index: 1;
   block-size: 40rem !important;

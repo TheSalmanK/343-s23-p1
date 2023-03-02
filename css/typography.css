@@ -45,8 +45,7 @@ font-weight: 100;
 }
 h1 {
    font-family: neue-haas-grotesk-display, sans-serif;
-font-style: bold;
-font-weight: 300;
+   font-weight: 300;
    font-size: 4rem;
    line-height: 1.5;
    color: #fff;
@@ -86,7 +85,6 @@ ul {
 }
 h1 {
    font-family: neue-haas-grotesk-display, sans-serif;
-   font-style: bold;
    font-weight: 300;
    font-size: 3rem;
    line-height: 1.5;
