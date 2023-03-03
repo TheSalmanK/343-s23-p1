@@ -13,7 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us</title>
 
-  <nav class="nav">
+  <nav class="nav" aria-label="nav">
       <ul class="navbar">
         <li class="homebutton" id="navitem"><a href="index.html">Home</a></li>
         <li class="missionbutton" id="navitem"><a href="ourmission.html">Mission</a></li>
@@ -25,12 +25,12 @@
 
         <!--MOBILE NAVIGATION UNIT-->
 <div class="mobilenavigator">
-<a href="#" id="logomobile" class="logomobilepic"><img src="/images/saturn-filled.svg"></a>
+<a href="#" id="logomobile" class="logomobilepic"><p class="hide">Saturn Logo</p><img src="/images/saturn-filled.svg" alt="Saturn Logo"></a>
         <!-- Hamburger icon -->
         <input class="side-menu" type="checkbox" id="side-menu"/>
         <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
         <!-- Menu -->
-        <nav id="navmobile">
+        <nav id="navmobile" aria-label="Mobile nav">
             <ul id="mobile" class="menumobile">
                 <li class="homebutton" id="navitem"><a href="index.html">Home</a></li>
         <li class="missionbutton" id="navitem"><a href="ourmission.html">Our Mission</a></li>
@@ -195,8 +195,8 @@ So why not take the first step towards a career with Solar today? We can't wait 
       </label>
       <textarea id="message" name="message" rows="4" cols="50" placeholder="Put Message Here!"></textarea>
       <label id="applytext" for="name">Apply to become a beta-tester: <input type="checkbox" id="updates" name="apply"/></label>
-      <label id="updatestext" for="updates">Recieve News Updates and Promotional offers:<input type="checkbox" id="news" name="updates" /></label>
-      <input id="submitbutton" type="submit" value="Submit" />
+      <label id="updatestext" for="updates">Recieve News Updates and Promotional offers:<input type="checkbox" id="news" name="updates" aria-label="offers box"/></label>
+      <input id="submitbutton" type="submit" value="Submit" aria-label="sumbit button"/>
     </form>
 
   <div class="white_forefront"></div>
@@ -207,28 +207,28 @@ So why not take the first step towards a career with Solar today? We can't wait 
   <div class="main__bgleft"></div>
   <div class="main__bgright"></div>
 
-<nav class="socials">
-      <ul class="socials__list">
-        <li class="socials__item">
-          <a href="https://facebook.com/" target="_blank"><img src="images/facebook.svg" alt ="Facebook" class="socials_icon"
-          </a>
-        </li>
-        <li class="socials__insta">
-          <a href="https://instagram.com/" target="_blank"><img src="images/instagram.svg" alt ="Instagram" class="socials_icon"
-          </a>
-        </li>
-        <li class="socials__twitter">
-          <a href="https://twitter.com/solar_network" target="_blank"><img src="images/twitter.svg" alt="Twitter" class="socials__icon"
-          /></a>
-        </li>
-        <li class="socials__item">
-          <a href="https://reddit.com/solar_network" target="_blank"><img src="images/reddit.svg" alt="Reddit" class="socials__icon"
-          /></a>
-        <li  id="discord" class="socials__item">
-          <a href="https://discord.gg/4Z4Z4Z4Z4Z" target="_blank"><img src="images/discord.svg" alt="Discord" class="socials__icon"
-          /></a>
-      </ul>
-    </nav>
+  <nav class="socials" aria-label="social icons">
+    <ul class="socials__list">
+      <li class="socials__item">
+        <a href="https://facebook.com/" target="_blank"><p class="hide">Facebook</p><img src="images/facebook.svg" alt ="Facebook" class="socials_icon">
+        </a>
+      </li>
+      <li class="socials__insta">
+        <a href="https://instagram.com/" target="_blank"><p class="hide">Instagram</p><img src="images/instagram.svg" alt ="Instagram" class="socials_icon">
+        </a>
+      </li>
+      <li class="socials__twitter">
+        <a href="https://twitter.com/solar_network" target="_blank"><p class="hide">Twitter</p><img src="images/twitter.svg" alt="Twitter" class="socials__icon"
+        ></a>
+      </li>
+      <li class="socials__item">
+        <a href="https://reddit.com/solar_network" target="_blank"><p class="hide">Reddit</p><img src="images/reddit.svg" alt="Reddit" class="socials__icon"
+        ></a>
+      <li  id="discord" class="socials__item">
+        <a href="https://discord.gg/4Z4Z4Z4Z4Z" target="_blank"><p class="hide">Discord</p><img src="images/discord.svg" alt="Discord" class="socials__icon"
+        ></a>
+    </ul>
+  </nav>
 
 </body>
 </html>
