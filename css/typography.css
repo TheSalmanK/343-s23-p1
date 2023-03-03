@@ -38,7 +38,8 @@ h3 {
    font-family: neue-haas-grotesk-text, sans-serif;
 font-style: normal;
 font-weight: 100;
-   font-size: 2rem;
+   font-size: 1.5rem;
+   text-decoration: underline;
    line-height: 1.5;
    color: #fff;
    padding: 1rem;
@@ -81,7 +82,7 @@ ul {
    font-size: 0.8rem;
    filter: drop-shadow(1px 1px 6px rgba(0, 0, 0, 0.498));
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
    h2 {
    font-family: neue-haas-grotesk-display, sans-serif;
    font-style: normal;
