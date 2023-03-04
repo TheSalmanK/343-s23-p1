@@ -79,6 +79,7 @@ form {
 
 #emailtext, #messagetext {
       padding-right: 2rem;
+      font-size: 0%;
 }
 
 #applicationtitle, #applytext, #updatestext {
