@@ -91,9 +91,10 @@ float: right;
    z-index: 90;
 }
 #events {
-   float: right;
+   float: left;
    overflow:hidden;
    position:relative;
+   width: 25rem;
    z-index: 90;
 }
 #follow {
@@ -260,7 +261,7 @@ float: right;
    }
    #events {
       padding: 1vw;
-      height: 50vw;
+      width: 100%;
    }
    #overviewpic {
    margin: 1vw;
