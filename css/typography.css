@@ -82,6 +82,17 @@ ul {
    font-size: 0.8rem;
    filter: drop-shadow(1px 1px 6px rgba(0, 0, 0, 0.498));
 }
+
+h6 {
+   color: transparent;
+   display: none;
+}
+
+label {
+   color: transparent;
+   padding: 0px;
+   margin: -1px;
+}
 @media only screen and (max-width: 1000px) {
    h2 {
    font-family: neue-haas-grotesk-display, sans-serif;
