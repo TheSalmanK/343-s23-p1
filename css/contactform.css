@@ -34,7 +34,7 @@ form {
       }
 
       to {
-            border-color: black;
+            border-color: #ff7ff689;
       }
 }
 
@@ -51,7 +51,7 @@ form {
       }
 
       to {
-            background-color: black;
+            background-color: #ff7ff689;
             color: white;
       }
 }
@@ -91,7 +91,7 @@ form {
 
 #email:focus, #message:focus {
       animation: blink 1s;
-      border-color:#000;
+      border-color:#ff7ff689;
 }
 
 
@@ -99,6 +99,7 @@ form {
 #email-text, #message-text {
       padding-right: 2rem;
       font-size: 0%;
+      filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.093));
 }
 
 #applicationtitle, #apply-text, #updates-text {
@@ -108,6 +109,7 @@ form {
       margin-bottom: 2rem;
       margin-left: 0.2rem;
       color: #00000085;
+      filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.093));
 }
 #updates, #beta-test {
       /*put the checkboxes at the right edge*/
@@ -139,6 +141,6 @@ form {
 
 #submit-button:hover {
       animation: submitblink 1s;
-      background-color:#000;
+      background-color:#ff7ff689;
       color: white;
 }
