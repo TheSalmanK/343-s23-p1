@@ -66,13 +66,13 @@ float: right;
    position:relative;
    z-index: 90;
 }
-#faqtwopic {
+#faq-pic-two {
 float: right;
    overflow:hidden;
    position:relative;
    z-index: 90;
 }
-#workwithus {
+#work-with-us {
    overflow:hidden;
    z-index: 90;
    position: relative;
@@ -112,13 +112,13 @@ float: right;
    position: relative;
    z-index: 90;
 }
-#joinus {
+#join-us {
    float: right;
    overflow: hidden;
    position: relative;
    z-index: 90;
 }
-#socialmedia {
+#social-media {
    float: right;
    overflow: hidden;
    position: relative;
@@ -178,7 +178,7 @@ float: right;
       margin-right: 10vw;
       margin-left: 10vw;
    }
-   #joinus {
+   #join-us {
       padding: 1vw;
       height: 80vw;
    }
@@ -190,7 +190,7 @@ float: right;
       height: 35vw;
       justify-content: center;
    }
-   #workwithus {
+   #work-with-us {
       padding: 1vw;
       height: 50vw;
       left: unset;
@@ -202,7 +202,7 @@ float: right;
       margin-left: 12vw;
       
    }
-   #faqtwopic {
+   #faq-pic-two {
       padding: 1vw;
       height: 100vw;
       right: 10vw;
@@ -226,7 +226,7 @@ float: right;
       padding: 1vw;
       height: 60vw;
    }
-   #socialmedia {
+   #social-media {
       padding: 1vw;
       height: 60vw;
    }
