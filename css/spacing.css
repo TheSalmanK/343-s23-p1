@@ -20,7 +20,7 @@ h1 {
   margin-left: 25%;
   margin-right: 25%;
 }
-.indoc {
+.social-buttons-in-page {
   margin-left: 25%;
   margin-right: 25%;
 }
@@ -33,7 +33,7 @@ form {
   margin-left: 0%;
   margin-right: 5%;
 }
-.indoc {
+.social-buttons-in-page {
   margin-left: 25%;
   margin-right: 25%;
 }
@@ -52,7 +52,7 @@ form {
 }
 
 @media only screen and (max-width: 1000px) {
-  .mainlogo {
+  .main-logo {
     margin-top: 55px;
     padding-bottom: 0;
   }
@@ -76,7 +76,7 @@ h1 {
   margin: 0.5rem;
   padding: 0.5rem;
 }
-.indoc {
+.social-buttons-in-page {
   margin-left: 0;
   margin-right: 0;
 }
@@ -89,7 +89,7 @@ form {
   margin-left: 0%;
   margin-right: 5%;
 }
-.indoc {
+.social-buttons-in-page {
   margin-left: 0;
   margin-right: 0;
 }

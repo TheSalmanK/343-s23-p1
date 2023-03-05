@@ -8,7 +8,7 @@ html, body {
     overflow-y: hidden;
     position: relative;
   }
-.main__bg {
+.main-bg {
   background-image: linear-gradient(
     45deg,
     #47ffe5,
@@ -88,78 +88,7 @@ html, body {
   block-size: 23.2rem !important;
   
 }
-
 .layer2 {
-  z-index: -1;
-  background-image: linear-gradient(
-    45deg,
-    #47ffe5,
-    rgba(198, 174, 251, 1),
-    #ff90a8
-  );
-  width: max-content;
-  width: 200%;
-}
-.footer__bg {
-    opacity: 0.4;
-  background-image: linear-gradient(
-      30deg,
-      #9320be 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #9320be 87.5%,
-      #9320be
-    ),
-    linear-gradient(
-      150deg,
-      #9320be 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #9320be 87.5%,
-      #9320be
-    ),
-    linear-gradient(
-      30deg,
-      #9320be 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #9320be 87.5%,
-      #9320be
-    ),
-    linear-gradient(
-      150deg,
-      #9320be 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #9320be 87.5%,
-      #9320be
-    ),
-    linear-gradient(
-      60deg,
-      #9320be77 25%,
-      transparent 25.5%,
-      transparent 75%,
-      #9320be77 75%,
-      #9320be77
-    ),
-    linear-gradient(
-      60deg,
-      #9320be77 25%,
-      transparent 25.5%,
-      transparent 75%,
-      #9320be77 75%,
-      #9320be77
-    );
-  background-size: 44px 77px;
-  background-position: 0 0, 0 0, 22px 39px, 22px 39px, 0 0, 40px 75px;
-  animation-direction: alternate-reverse;
-  animation-duration: 45s;
-  position: absolute;
-  bottom: 20px;
-  z-index: 1;
-  block-size: 40rem !important;
-}
-.footer__bg2 {
   z-index: -1;
   background-image: linear-gradient(
     45deg,
@@ -178,14 +107,6 @@ html, body {
     transform: translateX(25%);
   }
 }
-
-@media  screen and (min-width: 601px) {
-.layer4 {
-  display: none;
-}
-
-}
-
 @media only screen and (max-width: 600px) {
   .layer1 {
     block-size: 25.5rem !important;

@@ -96,12 +96,12 @@ form {
 
 
 
-#emailtext, #messagetext {
+#email-text, #message-text {
       padding-right: 2rem;
       font-size: 0%;
 }
 
-#applicationtitle, #applytext, #updatestext {
+#applicationtitle, #apply-text, #updates-text {
       font-family: tenon-Haas-Grotesk-Display-Pro, sans-serif;
       font-weight: 200;
       font-size: 1rem;
@@ -109,7 +109,7 @@ form {
       margin-left: 0.2rem;
       color: #00000085;
 }
-#updates, #betatest {
+#updates, #beta-test {
       /*put the checkboxes at the right edge*/
       margin-left: auto;
       /*make the selection box and text in one row*/
@@ -118,7 +118,7 @@ form {
 
 }
 
-#submitbutton[value] {
+#submit-button[value] {
       font-family: tenon-Haas-Grotesk-Display-Pro, sans-serif;
       font-weight: 200;
       font-size: 1rem;
@@ -126,17 +126,18 @@ form {
 
 
 
-#submitbutton {
+#submit-button {
       cursor: pointer;
 
       border: none;
       padding: 1vw;
       outline: none;
+      border-radius: 10px;
 
       animation: submitradiate 20s infinite linear;
 }
 
-#submitbutton:hover {
+#submit-button:hover {
       animation: submitblink 1s;
       background-color:#000;
       color: white;

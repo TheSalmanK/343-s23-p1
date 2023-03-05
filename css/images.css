@@ -22,16 +22,16 @@
    z-index: 90;
    right: 5vw;
 } 
-#allforone {
+#all-for-one {
    margin-left: 30%;
 }
-#decentralarc {
+#decentralized-architecture {
    float: right;
    overflow:hidden;
    position:relative;
 
 }
-#usercontrol {
+#user-control {
    float: right;
    overflow:hidden;
    position:relative;
@@ -42,7 +42,7 @@
    position:relative;
    z-index: 90;
 }
-#communitygov {
+#community-government {
    float: right;
    overflow:hidden;
    position:relative;
@@ -133,14 +133,14 @@ float: right;
    word-wrap: break-word;
 
 }
- #overviewpic {
+ #overview-picture {
    float: right;
    overflow: hidden;
    position: absolute;
    z-index: 90;
    right: 5vw;
 }
-#signup {
+#sign-up {
    float: right;
    overflow: hidden;
    position: relative;
@@ -149,7 +149,7 @@ float: right;
    margin:0;
 }
 @media only screen and (max-width: 1600px){
-   #overviewpic {
+   #overview-picture {
       margin: 1vw;
          height: 400px;
          float: unset;
@@ -161,7 +161,7 @@ float: right;
          float: unset;
          padding: 2rem 0rem;
       }
-      #signup {
+      #sign-up {
          padding: 1vw;
          height: 50vw;
          margin: 5vw;
@@ -240,12 +240,12 @@ float: right;
       height: 90vw;
       margin-right: 2vw;
    }
-   #decentralarc {
+   #decentralized-architecture {
       padding: 1vw;
       height: 80vw;
       margin-right: 2vw;
    }
-   #usercontrol {
+   #user-control {
       padding: 1vw;
       height: 80vw;
       margin-right: 2vw;
@@ -255,7 +255,7 @@ float: right;
       height: 80vw;
       margin-right: 2vw;
    }
-   #communitygov {
+   #community-government {
       padding: 0vw;
       height: 80vw;
    }
@@ -263,13 +263,13 @@ float: right;
       padding: 1vw;
       width: 100%;
    }
-   #overviewpic {
+   #overview-picture {
    margin: 1vw;
       height: 45vw;
       float: unset;
       position: unset;
    }
-   #signup {
+   #sign-up {
       padding: 1vw;
       height: 70vw;
       margin: 5vw;
@@ -285,7 +285,7 @@ float: right;
       padding: 1vw;
       height: 40vw;
    }
-   #allforone {
+   #all-for-one {
       padding: 1vw;
       height: 60vw;
       position: relative;
@@ -295,7 +295,7 @@ float: right;
       padding: 1vw;
       height: 60vw;
    }
-   .mainlogo {
+   .main-logo {
       position: relative;
 
       bottom: 1.5rem;

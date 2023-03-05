@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
-.navbar {
+
+/*nav-bar CSS*/
+.nav-bar {
    list-style: none;
    padding-top: 0;
    margin-top: 0;
@@ -8,10 +10,10 @@
    padding-right: 20vw;
    width: 60%;
    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-   /* place the navbar at the top of the page */
+   /* place the nav-bar at the top of the page */
    position: fixed;
    top: 0;
-   /* make the navbar span the entire width of the page */
+   /* make the nav-bar span the entire width of the page */
    left: 0;
    z-index: 100;
    background-color: #ffffff76;
@@ -23,7 +25,7 @@
    
 }
 
-.navbar li {
+.nav-bar li {
    
    display: block;
    width:20%;
@@ -32,7 +34,7 @@
    border-bottom: none;
 }
 
-.navbar li a {
+.nav-bar li a {
    display:block;
 	padding:2px;
 	text-decoration:none;
@@ -40,12 +42,14 @@
 	color:rgb(0, 0, 0);
 }
 
-.navbar li a:hover {
+.nav-bar li a:hover {
    text-decoration: underline;
    color:#9867e8;
 }
 
-.socials {
+/*nav-bar CSS end*/
+
+.social-media-buttons {
 list-style: none;
    padding-top: 0;
    margin-top: 0;
@@ -55,7 +59,7 @@ list-style: none;
    position: relative;
 
 }
-.socials #index{
+.social-media-buttons #index{
 list-style: none;
    padding-top: 0;
    margin-top: 0;
@@ -66,21 +70,21 @@ list-style: none;
    position: relative;
 
 }
-.socials li {
+.social-media-buttons li {
    display: block;
    width:2rem;
    height: 2rem;
    float: right;
    justify-self: right;
 }
-.indoc {
+.social-buttons-in-page {
    list-style: none;
    width: 100%;
    left: 0;
    border-bottom-right-radius: 2rem;
    border-bottom-left-radius: 2rem;
 }
-.indoc li {
+.social-buttons-in-page li {
    display: block;
    width: 1rem;
    height: 1rem;
@@ -94,16 +98,16 @@ list-style: none;
    image-rendering: optimizeQuality;
 }
 @media  screen and (min-width: 726px) {
-.mobilenavigator {
+.mobile-navigator {
    display: none;
 
 }
 }
 @media only screen and (max-width: 725px) {
-.navbar {
+.nav-bar {
    display: none;
 }
-.indoc li {
+.social-buttons-in-page li {
    display: block;
    width: 1rem;
    height: 1rem;
@@ -113,7 +117,7 @@ list-style: none;
    text-align: center;
    border-bottom: none;
 }
-.socials {
+.social-media-buttons {
 list-style: none;
    padding-top: 0;
    margin-top: 0;
@@ -125,7 +129,7 @@ list-style: none;
    top: 8.1rem;
    padding-bottom: 0;
 }
-.socials li {
+.social-media-buttons li {
    display: block;
    width:2rem;
    height: 2rem;
@@ -133,7 +137,7 @@ list-style: none;
    padding-right: 2.84rem;
    text-align: center;
 }
-.socials #discord {
+.social-media-buttons #discord {
    padding-right: 0rem;
 }
 
@@ -157,7 +161,7 @@ list-style: none;
 #mobile {
     list-style: none;
 }
-.mobilenavigator{
+.mobile-navigator{
     background-color: var(--black);
     box-shadow: 1px 1px 5px 0px var(--gray);
     position: fixed;
@@ -167,32 +171,31 @@ list-style: none;
 }
 /* Logo */
 
-#navmobile{
+#mobile-nav{
     width: 100%;
     height: 100%;
     position: fixed;
     background-color: var(--white);
     overflow: hidden;
 }
-.menumobile a{
+.mobile-menu a{
     display: block;
     color: var(--black);
 }
-.menumobile a:hover{
-    
+.mobile-menu a:hover{
     color: #9867e89c;
    }
-#navmobile{
+#mobile-nav{
     max-height: 0;
     transition: max-height .5s ease-out;
 }
-.hamb{
+.menu{
     cursor: pointer;
     float: right;
     padding: 15px 0px;
-}/* Style label tag */
+}
 
-.hamb-line {
+.menu-bar {
     background: var(--white);
     display: block;
     height: 2px;
@@ -200,10 +203,10 @@ list-style: none;
     width: 24px;
       z-index: 110;
 
-} /* Style span tag */
+}
 
-.hamb-line::before,
-.hamb-line::after{
+.menu-bar::before,
+.menu-bar::after{
     background: var(--white);
     content: '';
     display: block;
@@ -212,33 +215,33 @@ list-style: none;
     transition: all .2s ease-out;
     width: 100%;
 }
-.hamb-line::before{
+.menu-bar::before{
     top: 5px;
 }
-.hamb-line::after{
+.menu-bar::after{
     top: -5px;
 }
 
 .side-menu {
     display: none;
 }
-.side-menu:checked ~ #navmobile{
+.side-menu:checked ~ #mobile-nav{
     max-height: 100%;
 }
-.side-menu:checked ~ .hamb .hamb-line {
+.side-menu:checked ~ .menu .menu-bar {
     background: transparent;
 }
-.side-menu:checked ~ .hamb .hamb-line::before {
+.side-menu:checked ~ .menu .menu-bar::before {
     transform: rotate(-45deg);
     top:0;
 }
-.side-menu:checked ~ .hamb .hamb-line::after {
+.side-menu:checked ~ .menu .menu-bar::after {
     transform: rotate(45deg);
     top:0;
 }
-#navitem, .homebutton, .missionbutton, 
-.featuresbutton, .communitybutton, 
-.contactbutton {
+.home-button, .mission-button, 
+.features-button, .community-button, 
+.contact-button {
       padding: 40px;
       font-size: 20px;
       font-weight: 200;
@@ -248,7 +251,7 @@ list-style: none;
       text-decoration: none;
       transition: color .3s;
 }
-.socials {
+.social-media-buttons {
 list-style: none;
    padding-top: 0;
    margin-top: 0;
