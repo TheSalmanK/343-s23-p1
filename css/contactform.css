@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* CSS Document */
 form {
       margin-top: 1rem;
@@ -23,14 +24,22 @@ form {
 
 
 @keyframes radiate {
-      0%  { border-color:#47ffe5;}
-      50%  { border-color:rgba(198, 174, 251, 1);}
-      100% {border-color: #47ffe5;}
+      0% {
+            border-color: #47ffe5;
+      }
+
+      50% {
+            border-color: rgba(198, 174, 251, 1);
+      }
+
+      100% {
+            border-color: #47ffe5;
+      }
 }
 
 @keyframes blink {
       from {
-            border-color:transparent
+            border-color: transparent
       }
 
       to {
@@ -39,14 +48,22 @@ form {
 }
 
 @keyframes submitradiate {
-      0%  { background-color:#47ffe5;}
-      50%  { background-color:rgba(198, 174, 251, 1);}
-      100% {background-color: #47ffe5;}
+      0% {
+            background-color: #47ffe5;
+      }
+
+      50% {
+            background-color: rgba(198, 174, 251, 1);
+      }
+
+      100% {
+            background-color: #47ffe5;
+      }
 }
 
 @keyframes submitblink {
       from {
-            background-color:transparent;
+            background-color: transparent;
             color: black;
       }
 
@@ -89,20 +106,24 @@ form {
       animation: radiate 20s infinite linear;
 }
 
-#email:focus, #message:focus {
+#email:focus,
+#message:focus {
       animation: blink 1s;
-      border-color:#ff7ff689;
+      border-color: #ff7ff689;
 }
 
 
 
-#email-text, #message-text {
+#email-text,
+#message-text {
       padding-right: 2rem;
       font-size: 0%;
       filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.093));
 }
 
-#applicationtitle, #apply-text, #updates-text {
+#applicationtitle,
+#apply-text,
+#updates-text {
       font-family: tenon-Haas-Grotesk-Display-Pro, sans-serif;
       font-weight: 200;
       font-size: 1rem;
@@ -111,7 +132,9 @@ form {
       color: #00000085;
       filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.093));
 }
-#updates, #beta-test {
+
+#updates,
+#beta-test {
       /*put the checkboxes at the right edge*/
       margin-left: auto;
       /*make the selection box and text in one row*/
@@ -141,6 +164,6 @@ form {
 
 #submit-button:hover {
       animation: submitblink 1s;
-      background-color:#ff7ff689;
+      background-color: #ff7ff689;
       color: white;
 }

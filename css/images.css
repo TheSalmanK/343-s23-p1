@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* CSS Document */
 #blockchain {
    float: right;
@@ -7,12 +8,14 @@
    overflow: hidden;
    position: relative;
    z-index: 90;
-} 
-#community{
+}
+
+#community {
    padding: 1vw;
    display: flex;
    justify-content: center;
 }
+
 #vote {
    float: left;
    padding: 8rem 0rem;
@@ -21,101 +24,119 @@
    position: relative;
    z-index: 90;
    right: 5vw;
-} 
+}
+
 #all-for-one {
    margin-left: 30%;
 }
+
 #decentralized-architecture {
    float: right;
-   overflow:hidden;
-   position:relative;
+   overflow: hidden;
+   position: relative;
 
 }
+
 #user-control {
    float: right;
-   overflow:hidden;
-   position:relative;
+   overflow: hidden;
+   position: relative;
 }
+
 #crypto {
    float: right;
-   overflow:hidden;
-   position:relative;
+   overflow: hidden;
+   position: relative;
    z-index: 90;
 }
+
 #community-government {
    float: right;
-   overflow:hidden;
-   position:relative;
+   overflow: hidden;
+   position: relative;
    z-index: 90;
 }
+
 #incentives {
    float: left;
-   overflow:hidden;
-   position:relative;
+   overflow: hidden;
+   position: relative;
    z-index: 90;
 }
+
 #contactus {
    float: right;
-   overflow:hidden;
-   position:relative;
+   overflow: hidden;
+   position: relative;
    z-index: 90;
 }
+
 #faq {
-float: right;
-   overflow:hidden;
-   position:relative;
+   float: right;
+   overflow: hidden;
+   position: relative;
    z-index: 90;
 }
+
 #faq-pic-two {
-float: right;
-   overflow:hidden;
-   position:relative;
+   float: right;
+   overflow: hidden;
+   position: relative;
    z-index: 90;
 }
+
 #work-with-us {
-   overflow:hidden;
+   overflow: hidden;
    z-index: 90;
    position: relative;
-   left:30vw;
+   left: 30vw;
 }
+
 #teamwork {
    float: right;
-   overflow:hidden;
-   position:relative;
+   overflow: hidden;
+   position: relative;
    z-index: 90;
 }
+
 #government {
    float: right;
-   overflow:hidden;
-   position:relative;
+   overflow: hidden;
+   position: relative;
    z-index: 90;
 }
+
 #events {
    padding: 1vw;
    margin-left: 24vw;
    display: flex;
    justify-content: center;
 }
+
 #follow {
    float: right;
-   overflow:hidden;
-   position:relative;
+   overflow: hidden;
+   position: relative;
    z-index: 90;
 }
+
 .hide {
    display: none;
 }
+
 #mission {
    float: right;
    position: relative;
    z-index: 90;
 }
+
 #join-us {
    float: right;
    overflow: hidden;
    position: relative;
    z-index: 90;
 }
+
 #social-media {
    float: right;
    overflow: hidden;
@@ -123,6 +144,7 @@ float: right;
    z-index: 90;
    left: 3rem;
 }
+
 #rewards {
    float: left;
    overflow: hidden;
@@ -131,68 +153,77 @@ float: right;
    word-wrap: break-word;
 
 }
- #overview-picture {
+
+#overview-picture {
    float: right;
    overflow: hidden;
    position: absolute;
    z-index: 90;
    right: 0vw;
 }
+
 #sign-up {
    float: right;
    overflow: hidden;
    position: relative;
    z-index: 0;
    bottom: 250px;
-   margin:0;
+   margin: 0;
 }
+
 #learner {
    float: left;
    overflow: hidden;
    position: relative;
    z-index: 90;
-   right: 5vw;
+   width: 20%;
 }
-@media only screen and (max-width: 1600px){
+
+@media only screen and (max-width: 1600px) {
    #overview-picture {
       margin: 1vw;
-         height: 400px;
-         float: unset;
-         position: unset;
-         margin: 0;
-         margin-left: 25vw;
-      }
-      #blockchain {
-         position: relative;
-         float: unset;
-         padding: 2rem 0rem;
-         margin-left: 25vw;
-      }
-      #sign-up {
-         padding: 1vw;
-         height: 40vw;
-         float: none;
-         display: block;
-         z-index: 0;
-         top:5vw;
-         margin-left: 25vw;
-      }
-      #learner {
-         display: none;
-      }
-      #events {
-         padding: 1vw;
-         margin-left: 15vw;
-         display: flex;
-         justify-content: center;
-      }
-      #work-with-us {
-         padding: 1vw;
-         height: 60vw;
-         left: 18vw;
-         height: unset;
-      }
+      height: 400px;
+      float: unset;
+      position: unset;
+      margin: 0;
+      margin-left: 25vw;
+   }
+
+   #blockchain {
+      position: relative;
+      float: unset;
+      padding: 2rem 0rem;
+      margin-left: 25vw;
+   }
+
+   #sign-up {
+      height: 60vw;
+      float: none;
+      display: block;
+      z-index: 0;
+      top: 5vw;
+      margin: 10vw;
+   }
+
+   #learner {
+      width: 0%
+   }
+
+   #events {
+      padding: 1vw;
+      margin-left: 15vw;
+      display: flex;
+      justify-content: center;
+   }
+
+   #work-with-us {
+      padding: 1vw;
+      height: 60vw;
+      left: 18vw;
+      height: unset;
+   }
 }
+
 @media only screen and (max-width: 1000px) {
    #mission {
       padding: 1vw;
@@ -203,21 +234,25 @@ float: right;
       margin-right: unset;
       z-index: unset;
    }
+
    #join-us {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
    #vote {
       display: none;
    }
+
    #community {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
    #work-with-us {
       padding: 1vw;
       float: unset;
@@ -225,85 +260,99 @@ float: right;
       justify-content: center;
       position: unset;
    }
+
    #follow {
       padding: 1vw;
-      float:unset;
+      float: unset;
       display: flex;
       justify-content: center;
-      
+
    }
+
    #faq-pic-two {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
    #faq {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
    #contactus {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
    #rewards {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
    #incentives {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
    #social-media {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
    #government {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
    #teamwork {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
    #decentralized-architecture {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
    #user-control {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
    #crypto {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
    #community-government {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
    #events {
       padding: 1vw;
       float: unset;
@@ -311,18 +360,25 @@ float: right;
       justify-content: center;
       margin-left: unset;
    }
+
    #overview-picture {
-   margin: 1vw;
-   float: unset;
-   display: flex;
-   justify-content: center;
+      margin: 1vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
+
    #sign-up {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
+   #sign-up img[src] {
+      padding: 3vw;
+   }
+
    #blockchain {
       position: relative;
       float: unset;
@@ -330,12 +386,14 @@ float: right;
       justify-content: center;
       margin-left: unset;
    }
+
    #learner {
       padding: 1vw;
       float: unset;
       display: flex;
       justify-content: center;
    }
+
    #all-for-one {
       padding: 1vw;
       float: unset;
@@ -343,6 +401,7 @@ float: right;
       justify-content: center;
       margin-left: unset;
    }
+
    .main-logo {
       position: relative;
 

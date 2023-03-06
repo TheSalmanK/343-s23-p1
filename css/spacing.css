@@ -1,52 +1,65 @@
 @charset "UTF-8";
+
 /* CSS Document */
 .title {
   margin-left: 25%;
   margin-right: 25%;
 }
+
 p {
   margin-left: 25%;
   margin-right: 30%;
 }
+
 h2 {
   margin-left: 25%;
   margin-right: 25%;
 }
+
 h3 {
   margin-left: 25%;
   margin-right: 25%;
 }
+
 h1 {
   margin-left: 25%;
   margin-right: 25%;
 }
+
 .social-buttons-in-page {
   margin-left: 25%;
   margin-right: 25%;
 }
+
 form {
   margin-left: 25%;
   margin-right: 25%;
 }
+
 .logo {
   margin-top: 3%;
   margin-left: 0%;
   margin-right: 5%;
 }
+
 .social-buttons-in-page {
   margin-left: 25%;
   margin-right: 25%;
 }
+
 .feature {
   padding-bottom: 3rem;
 }
+
 .content {
   padding-bottom: 5rem;
 }
+
 .special {
   position: relative;
   right: 8rem;
 }
+
 .answer {
   padding-bottom: 7rem;
 }
@@ -56,55 +69,68 @@ form {
     margin-top: 55px;
     padding-bottom: 0;
   }
-.title {
-  margin-left: 0;
-  margin-right: 0;
-}
-p {
-  margin: 0.5rem;
-}
-h2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-h3 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  text-align: left;
-}
-h1 {
-  margin: 0.5rem;
-  padding: 0.5rem;
-}
-.social-buttons-in-page {
-  margin-left: 0;
-  margin-right: 0;
-}
-form {
-  margin-left: 0;
-  margin-right: 0;
-}
-.logo {
-  margin-top: 3%;
-  margin-left: 0%;
-  margin-right: 5%;
-}
-.social-buttons-in-page {
-  margin-left: 0;
-  margin-right: 0;
-}
-.feature {
-  padding-bottom: 0;
-}
-.content {
-  padding-bottom: 0;
-}
-.special {
-  position: initial;
-  display: flex;
-  justify-content: center;
-}
-.answer {
-  padding-bottom: 0;
-}
+
+  .title {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  p {
+    margin: 0.5rem;
+  }
+
+  h2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  h3 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-align: left;
+  }
+
+  h1 {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .social-buttons-in-page {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  form {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .logo {
+    margin-top: 3%;
+    margin-left: 0%;
+    margin-right: 5%;
+  }
+
+  .social-buttons-in-page {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .feature {
+    padding-bottom: 0;
+  }
+
+  .content {
+    padding-bottom: 0;
+  }
+
+  .special {
+    position: initial;
+    display: flex;
+    justify-content: center;
+  }
+
+  .answer {
+    padding-bottom: 0;
+  }
 }

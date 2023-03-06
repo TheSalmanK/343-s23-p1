@@ -1,20 +1,22 @@
 @charset "UTF-8";
+
 /* CSS Document */
-html, body {
-    overflow-x: hidden;
-  }
-  body {
-    width: 100%;
-    overflow-y: hidden;
-    position: relative;
-  }
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  overflow-y: hidden;
+  position: relative;
+}
+
 .main-bg {
-  background-image: linear-gradient(
-    45deg,
-    #47ffe5,
-    rgba(198, 174, 251, 1),
-    #ff90a8
-  );
+  background-image: linear-gradient(45deg,
+      #47ffe5,
+      rgba(198, 174, 251, 1),
+      #ff90a8);
   background-size: 200%;
   animation: slide 4s ease-in-out infinite alternate;
   width: 200%;
@@ -26,57 +28,46 @@ html, body {
   opacity: 0.5;
   z-index: -1;
 }
+
 .layer1 {
   opacity: 0.4;
   z-index: -1;
-  background-image: linear-gradient(
-      30deg,
+  background-image: linear-gradient(30deg,
       #9320be 12%,
       transparent 12.5%,
       transparent 87%,
       #9320be 87.5%,
-      #9320be
-    ),
-    linear-gradient(
-      150deg,
+      #9320be),
+    linear-gradient(150deg,
       #9320be 12%,
       transparent 12.5%,
       transparent 87%,
       #9320be 87.5%,
-      #9320be
-    ),
-    linear-gradient(
-      30deg,
+      #9320be),
+    linear-gradient(30deg,
       #9320be 12%,
       transparent 12.5%,
       transparent 87%,
       #9320be 87.5%,
-      #9320be
-    ),
-    linear-gradient(
-      150deg,
+      #9320be),
+    linear-gradient(150deg,
       #9320be 12%,
       transparent 12.5%,
       transparent 87%,
       #9320be 87.5%,
-      #9320be
-    ),
-    linear-gradient(
-      60deg,
+      #9320be),
+    linear-gradient(60deg,
       #9320be77 25%,
       transparent 25.5%,
       transparent 75%,
       #9320be77 75%,
-      #9320be77
-    ),
-    linear-gradient(
-      60deg,
+      #9320be77),
+    linear-gradient(60deg,
       #9320be77 25%,
       transparent 25.5%,
       transparent 75%,
       #9320be77 75%,
-      #9320be77
-    );
+      #9320be77);
   background-size: 44px 77px;
   background-position: 0 0, 0 0, 22px 39px, 22px 39px, 0 0, 22px 39px;
   animation-direction: alternate-reverse;
@@ -86,36 +77,41 @@ html, body {
   bottom: 0;
   z-index: -1;
   block-size: 23.2rem !important;
-  
+
 }
+
 .layer2 {
   z-index: -1;
-  background-image: linear-gradient(
-    45deg,
-    #47ffe5,
-    rgba(198, 174, 251, 1),
-    #ff90a8
-  );
+  background-image: linear-gradient(45deg,
+      #47ffe5,
+      rgba(198, 174, 251, 1),
+      #ff90a8);
   width: max-content;
   width: 200%;
 }
+
 @keyframes slide {
   0% {
     transform: translateX(-25%);
   }
+
   100% {
     transform: translateX(25%);
   }
 }
+
 @media only screen and (max-width: 600px) {
   .layer1 {
     block-size: 25.5rem !important;
   }
-  html, body {
+
+  html,
+  body {
     overflow-x: hidden;
   }
+
   body {
     position: relative;
   }
-  
+
 }
