@@ -76,7 +76,7 @@ float: right;
    overflow:hidden;
    z-index: 90;
    position: relative;
-   left:30%;
+   left:30vw;
 }
 #teamwork {
    float: right;
@@ -91,11 +91,10 @@ float: right;
    z-index: 90;
 }
 #events {
-   float: left;
-   overflow:hidden;
-   position:relative;
-   width: 25rem;
-   z-index: 90;
+   padding: 1vw;
+   margin-left: 24vw;
+   display: flex;
+   justify-content: center;
 }
 #follow {
    float: right;
@@ -108,7 +107,6 @@ float: right;
 }
 #mission {
    float: right;
-   overflow: hidden;
    position: relative;
    z-index: 90;
 }
@@ -138,7 +136,7 @@ float: right;
    overflow: hidden;
    position: absolute;
    z-index: 90;
-   right: 5vw;
+   right: 0vw;
 }
 #sign-up {
    float: right;
@@ -148,6 +146,13 @@ float: right;
    bottom: 250px;
    margin:0;
 }
+#learner {
+   float: left;
+   overflow: hidden;
+   position: relative;
+   z-index: 90;
+   right: 5vw;
+}
 @media only screen and (max-width: 1600px){
    #overview-picture {
       margin: 1vw;
@@ -155,145 +160,188 @@ float: right;
          float: unset;
          position: unset;
          margin: 0;
+         margin-left: 25vw;
       }
       #blockchain {
          position: relative;
          float: unset;
          padding: 2rem 0rem;
+         margin-left: 25vw;
       }
       #sign-up {
          padding: 1vw;
-         height: 50vw;
-         margin: 5vw;
+         height: 40vw;
          float: none;
          display: block;
          z-index: 0;
          top:5vw;
+         margin-left: 25vw;
+      }
+      #learner {
+         display: none;
+      }
+      #events {
+         padding: 1vw;
+         margin-left: 15vw;
+         display: flex;
+         justify-content: center;
+      }
+      #work-with-us {
+         padding: 1vw;
+         height: 60vw;
+         left: 18vw;
+         height: unset;
       }
 }
 @media only screen and (max-width: 1000px) {
    #mission {
       padding: 1vw;
-      height: 80vw;
-      margin-right: 10vw;
-      margin-left: 10vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
+      margin-left: unset;
+      margin-right: unset;
+      z-index: unset;
    }
    #join-us {
       padding: 1vw;
-      height: 80vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
    #vote {
       display: none;
    }
    #community {
       padding: 1vw;
-      height: 35vw;
+      float: unset;
+      display: flex;
       justify-content: center;
    }
    #work-with-us {
       padding: 1vw;
-      height: 50vw;
-      left: unset;
+      float: unset;
+      display: flex;
+      justify-content: center;
+      position: unset;
    }
    #follow {
-      padding: 2vw;
-      height: 90vw;
-      right: 10vw;
-      margin-left: 12vw;
+      padding: 1vw;
+      float:unset;
+      display: flex;
+      justify-content: center;
       
    }
    #faq-pic-two {
       padding: 1vw;
-      height: 100vw;
-      right: 10vw;
-      margin-left: 12vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
    #faq {
       padding: 1vw;
-      height: 70vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
    #contactus {
       padding: 1vw;
-      height: 90vw;
-      right: 7vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
    #rewards {
       padding: 1vw;
-      height: 100vw;
-      margin-top: 10vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
    #incentives {
       padding: 1vw;
-      height: 60vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
    #social-media {
       padding: 1vw;
-      height: 60vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
    #government {
       padding: 1vw;
-      height:65vw;
-      margin-top: 5vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
    #teamwork {
       padding: 1vw;
-      height: 90vw;
-      margin-right: 2vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
    #decentralized-architecture {
       padding: 1vw;
-      height: 80vw;
-      margin-right: 2vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
    #user-control {
       padding: 1vw;
-      height: 80vw;
-      margin-right: 2vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
    #crypto {
-      padding: 2vw;
-      height: 80vw;
-      margin-right: 2vw;
+      padding: 1vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
    #community-government {
-      padding: 0vw;
-      height: 80vw;
+      padding: 1vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
    #events {
       padding: 1vw;
-      width: 100%;
+      float: unset;
+      display: flex;
+      justify-content: center;
+      margin-left: unset;
    }
    #overview-picture {
    margin: 1vw;
-      height: 45vw;
-      float: unset;
-      position: unset;
+   float: unset;
+   display: flex;
+   justify-content: center;
    }
    #sign-up {
       padding: 1vw;
-      height: 70vw;
-      margin: 5vw;
-      float: none;
-      display: block;
-      z-index: 0;
-      top:5vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
    #blockchain {
       position: relative;
+      float: unset;
+      display: flex;
+      justify-content: center;
+      margin-left: unset;
    }
    #learner {
       padding: 1vw;
-      height: 40vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
    }
    #all-for-one {
       padding: 1vw;
-      height: 60vw;
-      position: relative;
-      right: 30vw;
-   }
-   #blockchain {
-      padding: 1vw;
-      height: 60vw;
+      float: unset;
+      display: flex;
+      justify-content: center;
+      margin-left: unset;
    }
    .main-logo {
       position: relative;
