@@ -99,6 +99,7 @@ label {
    margin: -1px;
 }
 
+/* MEDIA QUERY FOR MOBILE FONTS */
 @media only screen and (max-width: 1000px) {
    h2 {
       font-family: neue-haas-grotesk-display, sans-serif;

@@ -64,6 +64,7 @@ form {
   padding-bottom: 7rem;
 }
 
+/* MEDIA QUERY FOR THE SPACING FOR BODY ELEMENTS */
 @media only screen and (max-width: 1000px) {
   .main-logo {
     margin-top: 55px;

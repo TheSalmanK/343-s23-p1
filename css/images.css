@@ -179,6 +179,7 @@
    width: 20%;
 }
 
+/* MEDIA QUERY FOR SPECIAL CASE IMAGES */
 @media only screen and (max-width: 1600px) {
    #overview-picture {
       margin: 1vw;
@@ -224,6 +225,7 @@
    }
 }
 
+/* MEDIA QUERY FOR IMAGES */
 @media only screen and (max-width: 1000px) {
    #mission {
       padding: 1vw;
